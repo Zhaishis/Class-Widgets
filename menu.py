@@ -281,18 +281,14 @@ class desktop_widget(FluentWindow):
 
         github_page = self.findChild(PushButton, "button_github")
         github_page.clicked.connect(lambda: QDesktopServices.openUrl(QUrl(
-            'https://github.com/RinLit-233-shiroko/Class-Widgets')))
+            'https://github.com/Zhaishis/Class-Widgets')))
 
-        bilibili_page = self.findChild(PushButton, 'button_bilibili')
-        bilibili_page.clicked.connect(lambda: QDesktopServices.openUrl(QUrl(
-            'https://space.bilibili.com/569522843')))
+        website_page = self.findChild(PushButton, 'button_website')
+        website_page.clicked.connect(lambda: QDesktopServices.openUrl(QUrl(
+            'https://class.zhiahis.cn')))
 
         license_button = self.findChild(PushButton, 'button_show_license')
         license_button.clicked.connect(self.show_license)
-
-        thanks_button = self.findChild(PushButton, 'button_thanks')
-        thanks_button.clicked.connect(lambda: QDesktopServices.openUrl(QUrl(
-            'https://github.com/RinLit-233-shiroko/Class-Widgets?tab=readme-ov-file#致谢')))
 
     def setup_advance_interface(self):
         margin_spin = self.findChild(SpinBox, 'margin_spin')

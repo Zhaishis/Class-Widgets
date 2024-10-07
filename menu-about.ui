@@ -228,7 +228,7 @@
               </size>
              </property>
              <property name="text">
-              <string>我的 哔哩哔哩 主页</string>
+              <string>Class Widgets的Zhaishis分支官网</string>
              </property>
             </widget>
            </item>
@@ -352,9 +352,6 @@
                <height>16777215</height>
               </size>
              </property>
-             <property name="text">
-              <string>鸣谢</string>
-             </property>
              <property name="hasIcon" stdset="0">
               <bool>false</bool>
              </property>
@@ -397,7 +394,7 @@
    <item>
     <widget class="CaptionLabel" name="CaptionLabel_2">
      <property name="text">
-      <string>Copyright © 2024 RinLit, All Rights Reversed.</string>
+      <string>Copyright © 2024 ClassCmdsTech, All Rights Reversed.</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
